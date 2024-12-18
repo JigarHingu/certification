@@ -73,7 +73,7 @@ PORT=5000
 MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/<dbname>
 ```
 
-2. Replace <username>, <password>, and <dbname> with your MongoDB credentials.
+2. Replace ```<username>, <password>, and <dbname>``` with your MongoDB credentials.
 
 ## Frontend
 
