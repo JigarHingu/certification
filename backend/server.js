@@ -18,5 +18,10 @@ connectDB();
 app.use("/api/categories", certificateRoutes);
 app.use("/api/questions", questionRoutes);
 
+// Simple route for root
+app.get("/", (req, res) => {
+    res.send("Backend running successfully");
+  });
+
 const PORT = 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
